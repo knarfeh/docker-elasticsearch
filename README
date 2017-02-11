@@ -1,0 +1,1 @@
+docker run -d --name elasticsearch --net host -e ES_HEAP_SIZE=4g -v /es:/es image_url
